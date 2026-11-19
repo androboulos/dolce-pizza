@@ -7,6 +7,131 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        <div class="header-gauche">
+    <h2>🍕 La Dolce Pizza</h2> 
+    <p>Nîmes - Maison Carrée</p> 
+        </div>
+        <div class="header-droite">
+    <p> 📞 04 45 04 56 64</p> 
+    <a href="contact.html" class="btn-header">Réserver une table </a>
+        </div>  
+
+    </header>
+
+ <main class="page-accueil">
+        <nav>
+            <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+            <a href="index.html">Accueil</a> 
+            <a href="menu.html">Menu</a>
+            <a href="galerie.html">Galerie</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+
+        <h1>Réservation et contact</h1>
+        <p>Venez partager un moment chaleureux autour du feu de bois. Pensez à réserver en avance pour les vendredis et samedis soirs afin de garantir votre place sous les voûtes de pierre nîmoises.</p>
+
+    <div class="Fromulaire">
+    <form method="get" action="">
+
+      <label for="prenom">Prénom :</label>
+      <input
+        type="text"
+        id="prenom"
+        name="prenom"
+        placeholder="Votre prénom"
+        required
+        autofocus>
+
+      <label for="nom">Nom :</label>
+      <input
+        type="text"
+        id="nom"
+        name="nom"
+        placeholder="Votre nom"
+        required>
+
+      <label for="mail">Email :</label>
+      <input
+        type="email"
+        id="mail"
+        name="mail"
+        placeholder="Votre email"
+        required>
+
+      <label for="Téléphone">Téléphone</label>
+      <input
+        type="tel"
+        id="Téléphone"
+        name="Téléphone"
+        placeholder="Votre numéro"
+        required>
+
+      <label for="date">Date du repas :</label>
+      <input
+        type="date"
+        id="date"
+        name="date"
+        min="2026-11-19" 
+        required>
+
+      <label for="time">Créneau horaire :</label>
+      <input
+        type="time"
+        id="time"
+        name="time"
+        required>
+     
+     <label for="convives">
+    Couverts (1 à 12 convives) :</label>
+
+  <select name="convives" id="convives" required>
+    <option value="">Nombre de personnes</option>
+    <option value="1">1 personne</option>
+    <option value="2">2 personnes</option>
+    <option value="3">3 personnes</option>
+    <option value="4">4 personnes</option>
+    <option value="5">5 personnes</option>
+    <option value="6">6 personnes</option>
+    <option value="7">7 personnes</option>
+    <option value="8">8 personnes</option>
+    <option value="9">9 personnes</option>
+    <option value="10">10 personnes</option>
+    <option value="11">11 personnes</option>
+    <option value="12">12 personnes</option>
+  </select>
+   
+  <button type="submit">Confirmer la réservation</button>
+  <p id="message-succes">
+    Votre réservation a bien été prise en compte ! </p>
+
+  <p class="contact-mail">
+    Une question ? Vous pouvez également nous contacter par e-mail :
+    <a href="mailto:contact@docepizza.com">contact@docepizza.com</a>
+  </p>
+    </form>
+    </div>
+ </main>
+
+    <footer>
+        <div class="footer-gauche">
+
+        <h3>Ouvert du mardi au dimanche de 12h à 23h</h3> 
+        <p><em>Sur place dans notre salle en pierre de taille ou à emporter pour déguster nos pizzas chaudes à la maison.</em></p> <br>
+        <p>© 2022 La Dolce Pizza Nîmes. Tous droits réservés.</p>
+        </div>
+
+        <div class="footer-droite">
+        <p>📍14 Rue Fresque </p>
+        <p>30000 Nîmes, France</p>    
+        <p><span id="adresse">À 100m des Arènes & de la Maison Carrée</span> </p>
+        <div class="footer-liens">
+    <a href="lien mentions légales">Mentions légales</a>
+    <a href="lien politique de confidentialité">Politique de confidentialité</a>
+        </div>
+        </div> 
+        
+    </footer>
 
     <script src="js/script.js"></script>
 </body>

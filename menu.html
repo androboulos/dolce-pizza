@@ -7,7 +7,179 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        <div class="header-gauche">
+    <h2>🍕 La Dolce Pizza</h2> 
+    <p>Nîmes - Maison Carrée</p> 
+        </div>
+        <div class="header-droite">
+    <p> 📞 04 45 04 56 64</p> 
+    <a href="contact.html" class="btn-header">Réserver une table </a>
+        </div>  
+
+    </header>
+
+    <main class="page-menu">
+        <nav>
+            <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+            <a href="index.html">Accueil</a> 
+            <a href="menu.html" class="active">Menu</a>
+            <a href="galerie.html">Galerie</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <h1>Notre Carte & Spécialités Artisanales</h1>
+        <h2>NOS PIZZAS</h2>
+        <p> <em>Chaque pizza est façonnée à la main et cuite dans notre four à bois à 450°C. Ingrédients nobles importés des terroirs d'Italie et amour du geste.</em></p>
+
+    <section class="menu">
+
+    <article class="card" data-name="Margherita" data-price="8.50">
+        <img src="assets/illustration pizza_3.jpg" alt="Photo Pizza Margherita">
+        <h3>Margherita</h3>
+        <span>8,50 €</span>
+        <p> Sauce tomate San Marzano, mozzarella fior di latte, basilic frais, huile d'olive extra-vierge.</p>
+        <button class="btn-ajouter">Ajouter au panier</button>
+    </article>
+
+    <article class="card" data-name="Reine" data-price="10.00">
+        <img src="assets/illustration pizza_2.jpg" alt="Photo Pizza Reine">
+        <h3>Reine</h3>
+        <span>10,00 €</span>
+        <p>Sauce tomate San Marzano, fior di latte, jambon cuit supérieur aux herbes, champignons de Paris frais.</p>
+        <button class="btn-ajouter">Ajouter au panier</button>
+    </article>
+
+    <article class="card" data-name="Pepperoni" data-price="11.50">
+        <img src="assets/illustration pizza_1.jpg" alt="Photo Pizza Pepperoni">
+        <h3>Pepperoni</h3>
+        <span>11,50 €</span>
+        <p>Sauce tomate épicée, fior di latte, spianata piccante calabraise, origan sauvage.</p>
+        <button class="btn-ajouter">Ajouter au panier</button>
+    </article>
+
+    <article class="card" data-name="4 Fromages" data-price="11.00">
+        <img src="assets/4fromages.jpg" alt="Photo Pizza 4 fromages">
+        <h3>4 Fromages</h3>
+        <span>11,00 €</span>
+        <p>Fior di latte, gorgonzola crémeux AOP, taleggio doux, copeaux de parmigiano reggiano 24 mois.</p>
+        <button class="btn-ajouter">Ajouter au panier</button>
+    </article>
+
+    <article class="card" data-name="Calzone" data-price="12.00">
+        <img src="assets/illustration pizza_4.jpg" alt="Photo Pizza Calzone">
+        <h3>Calzone</h3>
+        <span>12,00 €</span>
+        <p>En chausson croustillant : ricotta fraîche, fior di latte, jambon cuit, cœur de jaune d'œuf coulant.</p>
+        <button class="btn-ajouter">Ajouter au panier</button>
+    </article>
+
+    <article class="card" data-name="Sicilienne" data-price="11.50">
+        <img src="assets/illustration pizza_6.jpg" alt="Photo Pizza Sicilienne">
+        <h3>Sicilienne</h3>
+        <span>11,50 €</span>
+        <p>Sauce tomate San Marzano, anchois, câpres de Pantelleria, olives taggiasche, origan.</p>
+        <button class="btn-ajouter">Ajouter au panier</button>
+    </article>
+
+    <article class="card" data-name="Dolce Vita" data-price="12.50">
+        <img src="assets/illustration pizza_5.jpg" alt="Photo Pizza Dolce Vita">
+        <h3>Dolce Vita</h3>
+        <span>12,50 €</span>
+        <p>Crème di burrata, jambon de Parme, tomates cerises confites au thym, roquette fraîche croquante.</p>
+        <button class="btn-ajouter">Ajouter au panier</button>
+    </article>
+
+    </section>
+
+
+        <h2>NOS DESSERTS</h2>
+    <section class="menu"> 
+    <article class="card" data-name="Tiramisu" data-price="5.00">
+        <img src="assets/tiramisu.jpg" alt="Photo Tiramisu">
+        <h3>Tiramisu</h3>
+        <span>5,00 €</span>
+        <p>Le traditionnel vénitien au mascarpone onctueux, biscuits savoiardi imbibés de café.</p>
+        <button class="btn-ajouter">Ajouter au panier</button>
+    </article>
+
+    <article class="card" data-name="Panna Cotta" data-price="5.50">
+        <img src="assets/pannacotta.jpg" alt="Photo Panna Cotta">
+        <h3>Panna Cotta</h3>
+        <span>5,50 €</span>
+        <p>Crème infusée à la vanille bourbon de Madagascar et coulis maison de framboises.</p>
+        <button class="btn-ajouter">Ajouter au panier</button>
+    </article>
+
+    <article class="card" data-name="Gelato" data-price="4.50">
+        <img src="assets/gelato.avif" alt="Photo Gelato">
+        <h3>Gelato maison</h3>
+        <span>4,50 €</span>
+        <p>Deux boules artisanales au choix : Pistacchio di Bronte, Stracciatella, Nocciola.</p>
+        <button class="btn-ajouter">Ajouter au panier</button>
+    </article>
+
+    </section>
+
+        <h2>NOS BOISSONS</h2>
+        <section class="Boissons">
+
+            <article class="card-boissons" data-name="Bière italienne" data-price="4.00">
+                <h3>Bière italienne (33cl) 4,00 €</h3>
+                <button class="btn-ajouter">Ajouter au panier</button>
+            </article>
+
+            <article class="card-boissons" data-name="vin rouge" data-price="5.00">
+                <h3>Verre de vin rouge 5,00 €</h3>
+                <button class="btn-ajouter">Ajouter au panier</button>
+            </article>
+
+            <article class="card-boissons" data-name="Eau minérale" data-price="2.00">
+                <h3>Eau minérale (50cl) 2,00 €</h3>
+                <button class="btn-ajouter">Ajouter au panier</button>
+            </article>
+
+            <article class="card-boissons" data-name="Sodas" data-price="2.50">
+                <h3>Sodas 2,50 €</h3>
+                <button class="btn-ajouter">Ajouter au panier</button>
+            </article>
+            
+        </section>
+
+<section class="panier">
+    <h2>🍕 Votre commande</h2>
+    <div id="liste-commande">
+        <p>Votre panier est vide.</p>
+    </div>
+    <p class="total">
+        Total : <span id="total-commande">0,00 €</span>
+    </p>
+    <button type="button" id="vider-panier">Vider le panier</button>
+</section>    
+
+     </main>
+
+     <footer>
+        <div class="footer-gauche">
+
+        <h3>Ouvert du mardi au dimanche de 12h à 23h</h3> 
+        <p><em>Sur place dans notre salle en pierre de taille ou à emporter pour déguster nos pizzas chaudes à la maison.</em></p> <br>
+        <p>© 2022 La Dolce Pizza Nîmes. Tous droits réservés.</p>
+        </div>
+
+        <div class="footer-droite">
+        <p>📍14 Rue Fresque </p>
+        <p>30000 Nîmes, France</p>    
+        <p><span id="adresse">À 100m des Arènes & de la Maison Carrée</span> </p>
+        <div class="footer-liens">
+    <a href="lien mentions légales">Mentions légales</a>
+    <a href="lien politique de confidentialité">Politique de confidentialité</a>
+        </div>
+        </div> 
+        
+    </footer>
 
     <script src="js/script.js"></script> 
+
 </body>
 </html>
