@@ -125,8 +125,8 @@ main p {
 .presentation h2 {
     font-weight: bold;
     font-size: 40px;
-    margin-bottom: 15px;
-    padding: 10px;
+    margin: 0;
+    padding: 20px 10px 5px;
 }
 
 .presentation p {
@@ -134,7 +134,7 @@ main p {
     font-size: 20px;
     text-align: left;
     margin: 0;
-    padding: 10px;
+    padding: 5px 10px 20px;
 }
 
 
@@ -278,7 +278,7 @@ footer a {
     font-size: 25px;
 }
 
-#vider-panier {
+#vider-panier, #commander {
     background-color: #8A0000;
     color: #FFFFFF;
     border: none;
@@ -292,6 +292,10 @@ footer a {
 #vider-panier:hover {
     background-color: #E80000;
 }
+
+#commander:hover {
+    background-color: #02A220;
+    }
 
 .Fromulaire {
     max-width: 600px;

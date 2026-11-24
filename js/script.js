@@ -85,6 +85,9 @@ const listeCommande = document.getElementById("liste-commande");
 const totalCommande = document.getElementById("total-commande");
 const boutonVider = document.getElementById("vider-panier");
 
+// Vérifier que les éléments du panier existent
+if (listeCommande && totalCommande && boutonVider) {
+
 // Création du panier
 const panier = new Map();
 
@@ -192,3 +195,5 @@ boutonVider.addEventListener("click", () => {
 
 // Affichage initial
 afficherPanier();
+
+} 
